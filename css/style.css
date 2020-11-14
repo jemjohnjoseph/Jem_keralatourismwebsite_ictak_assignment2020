@@ -1,0 +1,425 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+  }
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
+
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: rgb(235, 218, 193);
+}
+header{
+    backface-visibility: unset;
+    height: 10em;
+}
+/* address1{ 
+    border: 1px solid palevioletred; */
+
+
+.container{
+    /* border: 1px solid white; */
+    margin-top: 90PX;
+}
+img{
+    margin-left: 2%;
+    margin-top: 20px;
+}
+.head-tag{
+    float: right;  
+    margin-top: 40px;  
+    margin-right: 0px;
+    /* border: 2px solid white; */
+    width: 80%;
+
+}
+.head-tag h4{
+    margin-left: 150px;
+    text-shadow: 2px 2px 5px yellow;
+    color: green;
+}
+.head-tag h1{
+    margin-left: 0px; 
+    text-shadow: 2px 2px 5px orangered;
+    color: blanchedalmond;
+}
+    /* border: 1px solid white; */
+.head-tag .side{
+    float: right;
+    margin-top: 0px;
+    margin-right: 5%;
+    margin-left: 2px;
+    /* border: 2px solid white; */
+}
+.head-tag .side a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 8px;
+    margin-right: 10px;
+}
+.head-tag .side a:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid green;
+    transition: 1.2 ease-in-out;
+}
+.sign-up{
+    float: right;
+    border: 3px solid white;
+    /* background-color: rgb(103, 235, 162); */
+    background-image: linear-gradient(blue, white);
+    height:10%;
+    width: 23%;
+    padding-right:1%;
+    padding-left:1%;
+    padding-top: 5px;
+    margin-right: 5%;
+    margin-top: 50px;
+  
+}
+.sign-up h2{
+    /* text-align: center; */
+    color: ghostwhite;
+    padding-top: 10px;
+    /* padding-left: 20%; */
+    margin-right: 5%;
+}
+.sign-up{
+    color: rgb(246, 250, 7);
+    padding-left: 45px;
+}
+.sigbup-cont{
+    margin-top: 25px;
+    color: ghostwhite;
+    padding-left: 10px;
+   margin-right: 10%;
+}
+.signup-misc{
+    color: rgb(226, 19, 106);
+    padding-left: 40px;
+    margin-right: 2%;
+}
+.signup-misc a{
+    border: 1px solid white;
+    text-decoration: none;
+    color: blue;
+    background-color: rgb(236, 236, 243);
+    
+    /* padding-left: 45px; */
+}
+.signup-misc a:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid green;
+    transition: 1.2 ease-in-out;
+    /* padding-left: 45px; */
+}
+/* change colour */
+/* div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 10s;
+  }
+  
+  @keyframes example {
+    from {background-color: red;}
+    to {background-color: blue;}
+    to {background-color: green;}
+    to {background-color: yellow;}
+    
+    }
+    
+   */
+   #signup-button{
+       /* padding-left: 60px; */
+       margin-right: 7%;
+   }
+   .sign-up #signbttn{
+       width: 85%;
+       height: 1.8em;
+       color: white;
+       background-color: green;
+       border: 2px solid white;
+       
+   }
+  .sign-up .cmnt{
+      margin-left: 6%;
+      /* border: 1px solid white; */
+      width: 70%;
+     
+  }
+  .sign-up .cmnt h6{
+      color: black;
+  }
+  .Log-in{
+    float: right;
+    border: 3px solid white;
+    /* background-color: rgb(103, 235, 162); */
+    background-image: linear-gradient(blue, white);
+    height:450px;
+    width: 280px;
+    padding-right: 30px;
+    padding-left: 35px;
+    padding-top: 5px;
+    margin-right: 5%;
+    margin-top: 50px;
+  }
+  .Log-in h2{
+    /* text-align: center; */
+    color: ghostwhite;
+    padding-top: 10px;
+    /* padding-left: 20%; */
+    margin-right: 6%;
+  }
+  
+  .login-cont{
+    margin-top: 25px;
+    color: ghostwhite;
+    padding-left: 10px;
+   margin-right: 10%;
+}
+#log-inbttn {
+    padding-left: 10px;
+    /* margin-right: 10%; */
+}
+.Log-in #logbttn{
+    width: 80%;
+    height: 1.8em;
+    color: white;
+    background-color: green;
+    border: 2px solid white;
+    margin-right: 10%;
+}
+.lognmc{
+    color: rgb(226, 19, 106);
+    padding-left: 10%;
+    margin-right: 10%;
+    margin-left: 5%;
+}
+.loginmc a{
+    border: 1px solid white;
+    text-decoration: none;
+    color: blue;
+    background-color: rgb(236, 236, 243);
+    
+    /* padding-left: 45px; */
+}
+.loginmc h5{
+    /* border: 1px solid white; */
+    text-decoration: none;
+    color: blue;
+    /* background-color: rgb(236, 236, 243); */
+    
+    /* padding-left: 45px; */
+}
+.loginmc h6{
+    /* border: 1px solid white; */
+    text-decoration: none;
+    color: rgb(13, 13, 14);
+    /* background-color: rgb(236, 236, 243); */
+    
+    /* padding-left: 45px; */
+}
+.loginmc a:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid green;
+    transition: 1.2 ease-in-out;
+    /* padding-left: 45px; */
+}
+.addr{
+    /* border: 1px solid palevioletred; */
+    /* float: right; */
+    border: 3px solid white;
+    /* background-color: rgb(103, 235, 162); */
+    background-image: linear-gradient(blue, white);
+    height:15%;
+    width: 28%;
+    margin-top: 5%;
+    margin-left: 60%;
+    padding: 2%;
+}
+.addr h2{
+    color: rgb(50, 6, 68);
+}    
+.addr h4{
+    color: rgb(15, 75, 9);
+}
+.phon{
+    /* border: 1px solid palevioletred; */
+    margin-left: 40%;
+    background-color: white;
+    width: 40%;
+}
+.phon h4{
+    color: dodgerblue;
+}
+.abt{
+    /* border: 1px solid palevioletred; */
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 80%;
+    /* background-color: white; */
+    }
+.abt h3{
+    color:rgb(19, 92, 226);
+    text-shadow: rgb(245, 11, 11);
+
+}
+.abt h2{
+    color: rgb(245, 38, 11);
+    text-shadow: greenyellow;
+    text-align: center;
+}
+.filling{
+    margin-top: 2em;
+    width: 100px;
+    height: 80%;
+    /* border: 3px solid white; */
+}
+.caro{
+    width: 60%;
+    height: 20%;
+    }
+.caro .carousel-item{
+    width: 60%;
+    height: 20%;
+
+}   
+.fa {
+  padding: 30px;
+  font-size: 30px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+  /* margin-bottom: 70em; */
+  /* margin-left: ; */
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+
+  background: #55ACEE;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.texts{
+    padding: 20px;
+
+}
+.texts h1{
+    color: blue;
+    text-align: center;
+    text-shadow: cornsilk;
+
+}
+.texts h3{
+    color: cornsilk;
+    text-shadow: darkred;
+}
+.dist{
+    /* border: 1px solid wheat; */
+    margin-top: 10%;
+
+}
+footer{
+    border: 2px solid white;
+    background-image: linear-gradient(white, blue);
+    color: blanchedalmond;
+    padding: 1.2%;
+    margin-top: 40%;
+
+}
+/* footer{
+    border: blue;
+    background-color: rgb(74, 28, 199);
+    color: blanchedalmond;
+    padding: 1.2%;
+    margin-top: 10%; */
+
+
+.lin{
+    border: 2px solid white;
+    margin-left: 200px;
+}
+.lin a{
+    float: right;
+    margin-left: 25px;
+}
+.theory{
+    margin: 2em;
+    margin-top: 10%;
+    /* border: 2px solid black; */
+}
+.theoryimg{
+    margin-left: 5em;
+}
+.theory h4{
+    margin: 3em;
+
+}
+.loggg{
+    margin-left: 30em;
+    margin-top: 9em;
+    /* border: 3px solid green; */
+
+}
+.loggg h2{
+    color:green;
+    text-shadow: #bb0000;
+
+}
+.loggg h4{
+    color:yellow;
+    text-shadow: white;
+}
