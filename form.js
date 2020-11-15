@@ -1,8 +1,3 @@
-// var smail = document.getElementById("semail");
-// var spswd = document.getElementById("password1");
-// var spswd2 = document.getElementById("password2");
-// var phone = document.getElementById("phone");
-// dddd
 var email = document.getElementById("email");
 var pwd = document.getElementById("pwd");
 var mob = document.getElementById("mob");
@@ -38,14 +33,14 @@ function validate()
     {
         // error.innerHTML="  INVALID eg:jninndn23@gmail.com";
         // error.style.color="red";
-        window.alert("Password Is Invalid");
-        window.alert("Password should be of minimum 8 characters, at least one uppercase, and one lower case, must contain at least one number");
+//         window.alert("Your Password Is Invalid");
+        window.alert("Password should be of minimum 8 characters, at least one uppercase, and one lower case, must contain at least one number and must contain one special characters");
         // window.alert("try again");
         return false;
     }
     else  if(pwd.value!=cnpwd.value)
     {
-        window.alert("Passwords Doesnt Match, Please Re-enter :");
+        window.alert("Your Passwords Doesnt Match, Please Re-enter :");
         return false;
     }
     else
@@ -84,19 +79,23 @@ function strengthcheck() {
     var bgcolor='';
     
     if(score>=100){
-        strength="Strong";
+        strength="Excellent";
         bgcolor='green';
     }
     else if(score>=80){
-        strength="Medium";
+        strength="Very good";
         bgcolor='blue';
     }
     else if(score>=60){
-        strength="Weak";
+        strength="Average";
+        bgcolor='yellow';
+    }  
+    else if(score>=40){
+        strength="bad"
         bgcolor='orange';
-    }    
+    }
     else{
-        strength='Very Weak';
+        strength='Very bad';
         bgcolor='red';
     }    
     pwdcolorbar.style.width='11em';
