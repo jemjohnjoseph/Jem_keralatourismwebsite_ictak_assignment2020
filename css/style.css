@@ -53,7 +53,7 @@ header{
 }
 img{
     margin-left: 2%;
-    margin-top: 20px;
+    margin-top: 0%;
 }
 .head-tag{
     float: right;  
@@ -76,9 +76,9 @@ img{
     /* border: 1px solid white; */
 .head-tag .side{
     float: right;
-    margin-top: 0px;
+    margin-top: 0%;
     margin-right: 5%;
-    margin-left: 2px;
+    margin-left: 1$;
     /* border: 2px solid white; */
 }
 .head-tag .side a{
@@ -104,9 +104,9 @@ img{
     width: 23%;
     padding-right:1%;
     padding-left:1%;
-    padding-top: 5px;
+    padding-top: 1%;
     margin-right: 5%;
-    margin-top: 50px;
+    margin-top: 5%;
   
 }
 .sign-up h2{
@@ -118,17 +118,17 @@ img{
 }
 .sign-up{
     color: rgb(246, 250, 7);
-    padding-left: 45px;
+    padding-left: 4%;
 }
 .sigbup-cont{
-    margin-top: 25px;
+    margin-top: 3%;
     color: ghostwhite;
-    padding-left: 10px;
+    padding-left: 1%;
    margin-right: 10%;
 }
 .signup-misc{
     color: rgb(226, 19, 106);
-    padding-left: 40px;
+    padding-left: 2%;
     margin-right: 2%;
 }
 .signup-misc a{
@@ -170,7 +170,7 @@ img{
    }
    .sign-up #signbttn{
        width: 85%;
-       height: 1.8em;
+       height: 1%;
        color: white;
        background-color: green;
        border: 2px solid white;
@@ -190,18 +190,18 @@ img{
     border: 3px solid white;
     /* background-color: rgb(103, 235, 162); */
     background-image: linear-gradient(blue, white);
-    height:450px;
-    width: 280px;
-    padding-right: 30px;
-    padding-left: 35px;
-    padding-top: 5px;
+    height:60%;
+    width: 23%;
+    padding-right: 3%;
+    padding-left: 3.1%;
+    padding-top: 1%;
     margin-right: 5%;
-    margin-top: 50px;
+    margin-top: 5%;
   }
   .Log-in h2{
     /* text-align: center; */
     color: ghostwhite;
-    padding-top: 10px;
+    padding-top: 1%;
     /* padding-left: 20%; */
     margin-right: 6%;
   }
@@ -306,9 +306,10 @@ img{
     text-align: center;
 }
 .filling{
-    margin-top: 2em;
-    width: 100px;
-    height: 80%;
+    margin-top: 0%;
+    width: 100%;
+    height: 100%;
+    padding-top: 2%;
     /* border: 3px solid white; */
 }
 .caro{
